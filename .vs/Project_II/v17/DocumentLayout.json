@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\UTCN\\YEAR III\\II\\Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE03336-CDEA-46A3-89A3-5DA7A9065E40}|project_ii.client\\project_ii.client.esproj|e:\\utcn\\year iii\\ii\\project\\project_ii.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5EE03336-CDEA-46A3-89A3-5DA7A9065E40}|project_ii.client\\project_ii.client.esproj|solutionrelative:project_ii.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE03336-CDEA-46A3-89A3-5DA7A9065E40}|project_ii.client\\project_ii.client.esproj|e:\\utcn\\year iii\\ii\\project\\project_ii.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5EE03336-CDEA-46A3-89A3-5DA7A9065E40}|project_ii.client\\project_ii.client.esproj|solutionrelative:project_ii.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC972114-89DC-42C5-90B4-4F5D20F50C01}|Project_II.Server\\Project_II.Server.csproj|e:\\utcn\\year iii\\ii\\project\\project_ii.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC972114-89DC-42C5-90B4-4F5D20F50C01}|Project_II.Server\\Project_II.Server.csproj|solutionrelative:project_ii.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC972114-89DC-42C5-90B4-4F5D20F50C01}|Project_II.Server\\Project_II.Server.csproj|E:\\UTCN\\YEAR III\\II\\Project\\project_ii.server\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC972114-89DC-42C5-90B4-4F5D20F50C01}|Project_II.Server\\Project_II.Server.csproj|solutionrelative:project_ii.server\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC972114-89DC-42C5-90B4-4F5D20F50C01}|Project_II.Server\\Project_II.Server.csproj|E:\\UTCN\\YEAR III\\II\\Project\\project_ii.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC972114-89DC-42C5-90B4-4F5D20F50C01}|Project_II.Server\\Project_II.Server.csproj|solutionrelative:project_ii.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC972114-89DC-42C5-90B4-4F5D20F50C01}|Project_II.Server\\Project_II.Server.csproj|E:\\UTCN\\YEAR III\\II\\Project\\project_ii.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC972114-89DC-42C5-90B4-4F5D20F50C01}|Project_II.Server\\Project_II.Server.csproj|solutionrelative:project_ii.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.jsx",
+              "DocumentMoniker": "E:\\UTCN\\YEAR III\\II\\Project\\project_ii.client\\src\\main.jsx",
+              "RelativeDocumentMoniker": "project_ii.client\\src\\main.jsx",
+              "ToolTip": "E:\\UTCN\\YEAR III\\II\\Project\\project_ii.client\\src\\main.jsx",
+              "RelativeToolTip": "project_ii.client\\src\\main.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-04-04T15:18:16.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.jsx",
+              "DocumentMoniker": "E:\\UTCN\\YEAR III\\II\\Project\\project_ii.client\\src\\App.jsx",
+              "RelativeDocumentMoniker": "project_ii.client\\src\\App.jsx",
+              "ToolTip": "E:\\UTCN\\YEAR III\\II\\Project\\project_ii.client\\src\\App.jsx",
+              "RelativeToolTip": "project_ii.client\\src\\App.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-04-04T15:17:55.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "E:\\UTCN\\YEAR III\\II\\Project\\Project_II.Server\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Project_II.Server\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "E:\\UTCN\\YEAR III\\II\\Project\\Project_II.Server\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Project_II.Server\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T09:15:04.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\UTCN\\YEAR III\\II\\Project\\Project_II.Server\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Project_II.Server\\Models\\User.cs",
+              "ToolTip": "E:\\UTCN\\YEAR III\\II\\Project\\Project_II.Server\\Models\\User.cs",
+              "RelativeToolTip": "Project_II.Server\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T09:02:07.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "E:\\UTCN\\YEAR III\\II\\Project\\Project_II.Server\\Data\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "Project_II.Server\\Data\\MyDbContext.cs",
+              "ToolTip": "E:\\UTCN\\YEAR III\\II\\Project\\Project_II.Server\\Data\\MyDbContext.cs",
+              "RelativeToolTip": "Project_II.Server\\Data\\MyDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T08:58:47.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\UTCN\\YEAR III\\II\\Project\\Project_II.Server\\Program.cs",
+              "RelativeDocumentMoniker": "Project_II.Server\\Program.cs",
+              "ToolTip": "E:\\UTCN\\YEAR III\\II\\Project\\Project_II.Server\\Program.cs",
+              "RelativeToolTip": "Project_II.Server\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T08:44:17.714Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
