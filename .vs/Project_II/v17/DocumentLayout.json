@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "E:\\UTCN\\YEAR III\\II\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5EE03336-CDEA-46A3-89A3-5DA7A9065E40}|project_ii.client\\project_ii.client.esproj|e:\\utcn\\year iii\\ii\\project\\project_ii.client\\src\\components\\register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{5EE03336-CDEA-46A3-89A3-5DA7A9065E40}|project_ii.client\\project_ii.client.esproj|solutionrelative:project_ii.client\\src\\components\\register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{EC972114-89DC-42C5-90B4-4F5D20F50C01}|Project_II.Server\\Project_II.Server.csproj|e:\\utcn\\year iii\\ii\\project\\project_ii.server\\controllers\\controllers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC972114-89DC-42C5-90B4-4F5D20F50C01}|Project_II.Server\\Project_II.Server.csproj|solutionrelative:project_ii.server\\controllers\\controllers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC972114-89DC-42C5-90B4-4F5D20F50C01}|Project_II.Server\\Project_II.Server.csproj|E:\\UTCN\\YEAR III\\II\\Project\\project_ii.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC972114-89DC-42C5-90B4-4F5D20F50C01}|Project_II.Server\\Project_II.Server.csproj|solutionrelative:project_ii.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\UTCN\\YEAR III\\II\\Project\\Project_II.Server\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Project_II.Server\\Models\\User.cs",
+              "ToolTip": "E:\\UTCN\\YEAR III\\II\\Project\\Project_II.Server\\Models\\User.cs",
+              "RelativeToolTip": "Project_II.Server\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:49:38.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Register.jsx",
-              "DocumentMoniker": "E:\\UTCN\\YEAR III\\II\\Project\\project_ii.client\\src\\components\\Register.jsx",
-              "RelativeDocumentMoniker": "project_ii.client\\src\\components\\Register.jsx",
-              "ToolTip": "E:\\UTCN\\YEAR III\\II\\Project\\project_ii.client\\src\\components\\Register.jsx",
-              "RelativeToolTip": "project_ii.client\\src\\components\\Register.jsx",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-04-16T07:19:27.788Z",
+              "Title": "Controllers.cs",
+              "DocumentMoniker": "E:\\UTCN\\YEAR III\\II\\Project\\Project_II.Server\\Controllers\\Controllers.cs",
+              "RelativeDocumentMoniker": "Project_II.Server\\Controllers\\Controllers.cs",
+              "ToolTip": "E:\\UTCN\\YEAR III\\II\\Project\\Project_II.Server\\Controllers\\Controllers.cs",
+              "RelativeToolTip": "Project_II.Server\\Controllers\\Controllers.cs",
+              "ViewState": "AQIAAMUAAAAAAAAAAAAAwB0CAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T08:56:07.465Z",
               "EditorCaption": ""
             }
           ]
