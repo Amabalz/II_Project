@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "4nZh+Qw92JrqEevs2nJlDyLGLG5FigtvHmEN8qY76S0=",
+  "Hash": "M0vzuFh/wpz9z+OsOX9dj/AxNKNxNuhh1ebpNLfXAiU=",
   "Source": "Project_II.Server",
   "BasePath": "_content/Project_II.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "E:\\UTCN\\YEAR III\\II\\Project\\project_ii.client\\project_ii.client.esproj",
+      "Identity": "E:\\UTCN\\YEAR III\\II\\II_Project\\project_ii.client\\project_ii.client.esproj",
       "Version": 2,
       "Source": "project_ii.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

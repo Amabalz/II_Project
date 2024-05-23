@@ -1,3 +1,4 @@
+import React from 'react';
 import "./bootstrap.css";
 import Logo from "./Logo";
 import Register from "./Register";

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\UTCN\\YEAR III\\II\\Project\\Project_II.Server\\Project_II.Server.csproj": {}
+    "E:\\UTCN\\YEAR III\\II\\II_Project\\Project_II.Server\\Project_II.Server.csproj": {}
   },
   "projects": {
-    "E:\\UTCN\\YEAR III\\II\\Project\\Project_II.Server\\Project_II.Server.csproj": {
+    "E:\\UTCN\\YEAR III\\II\\II_Project\\Project_II.Server\\Project_II.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\UTCN\\YEAR III\\II\\Project\\Project_II.Server\\Project_II.Server.csproj",
+        "projectUniqueName": "E:\\UTCN\\YEAR III\\II\\II_Project\\Project_II.Server\\Project_II.Server.csproj",
         "projectName": "Project_II.Server",
-        "projectPath": "E:\\UTCN\\YEAR III\\II\\Project\\Project_II.Server\\Project_II.Server.csproj",
+        "projectPath": "E:\\UTCN\\YEAR III\\II\\II_Project\\Project_II.Server\\Project_II.Server.csproj",
         "packagesPath": "C:\\Users\\iq2ad\\.nuget\\packages\\",
-        "outputPath": "E:\\UTCN\\YEAR III\\II\\Project\\Project_II.Server\\obj\\",
+        "outputPath": "E:\\UTCN\\YEAR III\\II\\II_Project\\Project_II.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

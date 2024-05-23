@@ -1,4 +1,4 @@
-import logo from "./logo.png"
+import logo from "../assets/logoFull.svg";
 
 function Logo() {
   return (
@@ -14,7 +14,7 @@ function Logo() {
     >
       <img src={logo} alt="Logo" />
       <h6 className="text-center">
-        Sign up to support best cooking community!
+        Sign up to support the best cooking community!
       </h6>
     </div>
   );

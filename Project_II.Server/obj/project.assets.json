@@ -59,7 +59,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.SpaProxy/8.0.3": {
+      "Microsoft.AspNetCore.SpaProxy/8.0.5": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.AspNetCore.SpaProxy.dll": {}
@@ -1668,10 +1668,10 @@
         "logo.png"
       ]
     },
-    "Microsoft.AspNetCore.SpaProxy/8.0.3": {
-      "sha512": "LjkiTNvLBJ/zkL/eM3M/luM1SewLJ6LJ/9vgkVHK9Vlh7+6Xzz4NVRO/FfZ237BegFKEdO5zmc+py0QC5H86EA==",
+    "Microsoft.AspNetCore.SpaProxy/8.0.5": {
+      "sha512": "7iEMQelKbwKS5Lk79d/yTOqYSiLPq/wB07Gx4FaFUmF4cv+jtR7vWE55ODaioM+WOHV/ke9HqBCrpfilaaG/Vw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.spaproxy/8.0.3",
+      "path": "microsoft.aspnetcore.spaproxy/8.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1679,7 +1679,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "build/Microsoft.AspNetCore.SpaProxy.targets",
         "lib/net8.0/Microsoft.AspNetCore.SpaProxy.dll",
-        "microsoft.aspnetcore.spaproxy.8.0.3.nupkg.sha512",
+        "microsoft.aspnetcore.spaproxy.8.0.5.nupkg.sha512",
         "microsoft.aspnetcore.spaproxy.nuspec"
       ]
     },
@@ -4560,11 +4560,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\UTCN\\YEAR III\\II\\Project\\Project_II.Server\\Project_II.Server.csproj",
+      "projectUniqueName": "E:\\UTCN\\YEAR III\\II\\II_Project\\Project_II.Server\\Project_II.Server.csproj",
       "projectName": "Project_II.Server",
-      "projectPath": "E:\\UTCN\\YEAR III\\II\\Project\\Project_II.Server\\Project_II.Server.csproj",
+      "projectPath": "E:\\UTCN\\YEAR III\\II\\II_Project\\Project_II.Server\\Project_II.Server.csproj",
       "packagesPath": "C:\\Users\\iq2ad\\.nuget\\packages\\",
-      "outputPath": "E:\\UTCN\\YEAR III\\II\\Project\\Project_II.Server\\obj\\",
+      "outputPath": "E:\\UTCN\\YEAR III\\II\\II_Project\\Project_II.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
