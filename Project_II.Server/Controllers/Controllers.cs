@@ -52,18 +52,26 @@ namespace Project_II.Server.Controllers
             var existingUserEmail = await _myDbContext.UserData.FirstOrDefaultAsync(user => user.email == userRequest.email);
             var existingUserUsername = await _myDbContext.UserData.FirstOrDefaultAsync(user => user.username == userRequest.username);
 
+            if (userRequest.username == "" || userRequest.username == null)
+            {
+                return BadRequest("Invalid username");
+            }
             if (!new EmailAddressAttribute().IsValid(userRequest.email))
             {
                 return BadRequest("Invalid email address");
             }
-            if (existingUserEmail != null)
+            if (userRequest.password == "" || userRequest.password == null)
             {
-                return BadRequest("User with the same email already exists.");
+                return BadRequest("Invalid password");
             }
-
             if (existingUserUsername != null)
             {
                 return BadRequest("User with the same username already exists.");
+            }
+
+            if (existingUserEmail != null)
+            {
+                return BadRequest("User with the same email already exists.");
             }
 
 
@@ -227,6 +235,17 @@ namespace Project_II.Server.Controllers
         public async Task<IActionResult> Login([FromBody] User userRequest)
         {
             var existingUser = await _myDbContext.UserData.FirstOrDefaultAsync(user => user.email == userRequest.email || user.username == userRequest.username);
+
+            if(userRequest.email == "")
+            {
+                return BadRequest("Email is required");
+            }
+
+            if(userRequest.password == "")
+            {
+                return BadRequest("Password is required");
+            }
+
             if(existingUser == null)
             {
                 return NotFound("User not found");
@@ -238,7 +257,7 @@ namespace Project_II.Server.Controllers
                 return Unauthorized("Password and user don't match");
             }
 
-            return Ok("Login was successful");
+            return Ok(existingUser);
         }
 
 
@@ -280,11 +299,36 @@ namespace Project_II.Server.Controllers
             return Ok(ticket);
         }
 
+        //GET TICKET BY USERID
+        [HttpGet("GetTicketUserId/{id}")]
+        public async Task<IActionResult> GetTicketUserId(int id)
+        {
+            var tickets = await _myDbContext.TicketData.Where(ticket => ticket.userid == id).ToListAsync();
+            if (!tickets.Any())
+            {
+                return NotFound("No tickets found");
+            }
+            return Ok(tickets);
+        }
+
 
         //ADD TICKET
         [HttpPost("AddTicket")]
         public async Task<IActionResult> AddTicket([FromBody] Ticket ticketRequest)
         {
+            var existingTicket = await _myDbContext.TicketData.FirstOrDefaultAsync(ticket => ticket.title == ticketRequest.title);
+            if (ticketRequest.data == "" || ticketRequest.data == null)
+            {
+                return BadRequest("Ticket has no data");
+            }
+            if(ticketRequest.title == "" || ticketRequest.title == null)
+            {
+                return BadRequest("Ticket has no title");
+            }
+            if(existingTicket != null)
+            {
+                return BadRequest("Ticket with the same title already exists");
+            }
             await _myDbContext.AddAsync(ticketRequest);
             await _myDbContext.SaveChangesAsync();
             return Ok(ticketRequest);
@@ -383,11 +427,69 @@ namespace Project_II.Server.Controllers
             return Ok(comment);
         }
 
+        //LIKE COMMENT BY ID
+        [HttpGet("LikeCommentById/{id}")]
+        public async Task<IActionResult> LikeCommentById(int id)
+        {
+            var comment = await _myDbContext.CommentData.FindAsync(id);
+            if (comment == null)
+            {
+                return NotFound("Comment not found");
+            }
+            comment.likes++;
+            _myDbContext.CommentData.Update(comment);
+            await _myDbContext.SaveChangesAsync();
+            return Ok(comment);
+        }
+
+        //DISLIKE COMMENT BY ID
+        [HttpGet("DislikeCommentById/{id}")]
+        public async Task<IActionResult> DislikeCommentById(int id)
+        {
+            var comment = await _myDbContext.CommentData.FindAsync(id);
+            if (comment == null)
+            {
+                return NotFound("Comment not found");
+            }
+            comment.dislikes++;
+            _myDbContext.CommentData.Update(comment);
+            await _myDbContext.SaveChangesAsync();
+            return Ok(comment);
+        }
+
+        //GET COMMENTS BY TICKETID
+        [HttpGet("GetCommentByTicketId/{id}")]
+        public async Task<IActionResult> GetCommentByTicketId(int id)
+        {
+            var comments = await _myDbContext.CommentData.Where(comment => comment.ticketid == id).ToListAsync();
+            if (!comments.Any())
+            {
+                return NotFound("No comments found");
+            }
+            return Ok(comments);
+        }
+
+        //GET COMMENTS BY USERID
+        [HttpGet("GetCommentByUserId/{id}")]
+        public async Task<IActionResult> GetCommentByUserId(int id)
+        {
+            var comments = await _myDbContext.CommentData.Where(comment => comment.userid == id).ToListAsync();
+            if (!comments.Any())
+            {
+                return NotFound("No comments found");
+            }
+            return Ok(comments);
+        }
+
 
         //ADD COMMENT
         [HttpPost("AddComment")]
         public async Task<IActionResult> AddComment([FromBody] Comment commentRequest)
         {
+            if(commentRequest.data == null || commentRequest.data == "")
+            {
+                return BadRequest("You need to write something");
+            }
             await _myDbContext.AddAsync(commentRequest);
             await _myDbContext.SaveChangesAsync();
             return Ok(commentRequest);

@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "E:\\UTCN\\YEAR III\\II\\II_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5EE03336-CDEA-46A3-89A3-5DA7A9065E40}|project_ii.client\\project_ii.client.esproj|e:\\utcn\\year iii\\ii\\ii_project\\project_ii.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{5EE03336-CDEA-46A3-89A3-5DA7A9065E40}|project_ii.client\\project_ii.client.esproj|solutionrelative:project_ii.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{5EE03336-CDEA-46A3-89A3-5DA7A9065E40}|project_ii.client\\project_ii.client.esproj|E:\\UTCN\\YEAR III\\II\\II_Project\\project_ii.client\\src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5EE03336-CDEA-46A3-89A3-5DA7A9065E40}|project_ii.client\\project_ii.client.esproj|solutionrelative:project_ii.client\\src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC972114-89DC-42C5-90B4-4F5D20F50C01}|Project_II.Server\\Project_II.Server.csproj|E:\\UTCN\\YEAR III\\II\\II_Project\\project_ii.server\\controllers\\controllers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC972114-89DC-42C5-90B4-4F5D20F50C01}|Project_II.Server\\Project_II.Server.csproj|solutionrelative:project_ii.server\\controllers\\controllers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EE03336-CDEA-46A3-89A3-5DA7A9065E40}|project_ii.client\\project_ii.client.esproj|e:\\utcn\\year iii\\ii\\ii_project\\project_ii.client\\src\\components\\register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5EE03336-CDEA-46A3-89A3-5DA7A9065E40}|project_ii.client\\project_ii.client.esproj|solutionrelative:project_ii.client\\src\\components\\register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC972114-89DC-42C5-90B4-4F5D20F50C01}|Project_II.Server\\Project_II.Server.csproj|E:\\UTCN\\YEAR III\\II\\II_Project\\project_ii.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC972114-89DC-42C5-90B4-4F5D20F50C01}|Project_II.Server\\Project_II.Server.csproj|solutionrelative:project_ii.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EE03336-CDEA-46A3-89A3-5DA7A9065E40}|project_ii.client\\project_ii.client.esproj|e:\\utcn\\year iii\\ii\\ii_project\\project_ii.client\\src\\components\\profilepagethread.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5EE03336-CDEA-46A3-89A3-5DA7A9065E40}|project_ii.client\\project_ii.client.esproj|solutionrelative:project_ii.client\\src\\components\\profilepagethread.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE03336-CDEA-46A3-89A3-5DA7A9065E40}|project_ii.client\\project_ii.client.esproj|e:\\utcn\\year iii\\ii\\ii_project\\project_ii.client\\src\\components\\profilepagecomm.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5EE03336-CDEA-46A3-89A3-5DA7A9065E40}|project_ii.client\\project_ii.client.esproj|solutionrelative:project_ii.client\\src\\components\\profilepagecomm.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE03336-CDEA-46A3-89A3-5DA7A9065E40}|project_ii.client\\project_ii.client.esproj|e:\\utcn\\year iii\\ii\\ii_project\\project_ii.client\\src\\components\\profilecomp.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5EE03336-CDEA-46A3-89A3-5DA7A9065E40}|project_ii.client\\project_ii.client.esproj|solutionrelative:project_ii.client\\src\\components\\profilecomp.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE03336-CDEA-46A3-89A3-5DA7A9065E40}|project_ii.client\\project_ii.client.esproj|E:\\UTCN\\YEAR III\\II\\II_Project\\project_ii.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5EE03336-CDEA-46A3-89A3-5DA7A9065E40}|project_ii.client\\project_ii.client.esproj|solutionrelative:project_ii.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.jsx",
-              "DocumentMoniker": "E:\\UTCN\\YEAR III\\II\\II_Project\\project_ii.client\\src\\main.jsx",
-              "RelativeDocumentMoniker": "project_ii.client\\src\\main.jsx",
-              "ToolTip": "E:\\UTCN\\YEAR III\\II\\II_Project\\project_ii.client\\src\\main.jsx",
-              "RelativeToolTip": "project_ii.client\\src\\main.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "Register.jsx",
+              "DocumentMoniker": "E:\\UTCN\\YEAR III\\II\\II_Project\\project_ii.client\\src\\components\\Register.jsx",
+              "RelativeDocumentMoniker": "project_ii.client\\src\\components\\Register.jsx",
+              "ToolTip": "E:\\UTCN\\YEAR III\\II\\II_Project\\project_ii.client\\src\\components\\Register.jsx",
+              "RelativeToolTip": "project_ii.client\\src\\components\\Register.jsx",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-23T10:58:09.86Z",
+              "WhenOpened": "2024-05-27T11:00:55.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\UTCN\\YEAR III\\II\\II_Project\\Project_II.Server\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Project_II.Server\\Models\\User.cs",
-              "ToolTip": "E:\\UTCN\\YEAR III\\II\\II_Project\\Project_II.Server\\Models\\User.cs",
-              "RelativeToolTip": "Project_II.Server\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T10:49:38.445Z"
+              "Title": "ProfilePageThread.jsx",
+              "DocumentMoniker": "E:\\UTCN\\YEAR III\\II\\II_Project\\project_ii.client\\src\\components\\ProfilePageThread.jsx",
+              "RelativeDocumentMoniker": "project_ii.client\\src\\components\\ProfilePageThread.jsx",
+              "ToolTip": "E:\\UTCN\\YEAR III\\II\\II_Project\\project_ii.client\\src\\components\\ProfilePageThread.jsx",
+              "RelativeToolTip": "project_ii.client\\src\\components\\ProfilePageThread.jsx",
+              "ViewState": "AQIAACMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-05-27T11:00:54.193Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Controllers.cs",
-              "DocumentMoniker": "E:\\UTCN\\YEAR III\\II\\II_Project\\Project_II.Server\\Controllers\\Controllers.cs",
-              "RelativeDocumentMoniker": "Project_II.Server\\Controllers\\Controllers.cs",
-              "ToolTip": "E:\\UTCN\\YEAR III\\II\\II_Project\\Project_II.Server\\Controllers\\Controllers.cs",
-              "RelativeToolTip": "Project_II.Server\\Controllers\\Controllers.cs",
-              "ViewState": "AQIAAMUAAAAAAAAAAAAAwNoAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T08:56:07.465Z"
+              "DocumentIndex": 3,
+              "Title": "ProfilePageComm.jsx",
+              "DocumentMoniker": "E:\\UTCN\\YEAR III\\II\\II_Project\\project_ii.client\\src\\components\\ProfilePageComm.jsx",
+              "RelativeDocumentMoniker": "project_ii.client\\src\\components\\ProfilePageComm.jsx",
+              "ToolTip": "E:\\UTCN\\YEAR III\\II\\II_Project\\project_ii.client\\src\\components\\ProfilePageComm.jsx",
+              "RelativeToolTip": "project_ii.client\\src\\components\\ProfilePageComm.jsx",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-05-27T11:00:52.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProfileComp.jsx",
+              "DocumentMoniker": "E:\\UTCN\\YEAR III\\II\\II_Project\\project_ii.client\\src\\components\\ProfileComp.jsx",
+              "RelativeDocumentMoniker": "project_ii.client\\src\\components\\ProfileComp.jsx",
+              "ToolTip": "E:\\UTCN\\YEAR III\\II\\II_Project\\project_ii.client\\src\\components\\ProfileComp.jsx",
+              "RelativeToolTip": "project_ii.client\\src\\components\\ProfileComp.jsx",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-05-27T11:00:43.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Navbar.jsx",
+              "DocumentMoniker": "E:\\UTCN\\YEAR III\\II\\II_Project\\project_ii.client\\src\\components\\Navbar.jsx",
+              "RelativeDocumentMoniker": "project_ii.client\\src\\components\\Navbar.jsx",
+              "ToolTip": "E:\\UTCN\\YEAR III\\II\\II_Project\\project_ii.client\\src\\components\\Navbar.jsx",
+              "RelativeToolTip": "project_ii.client\\src\\components\\Navbar.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-05-24T16:50:09.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.jsx",
+              "DocumentMoniker": "E:\\UTCN\\YEAR III\\II\\II_Project\\project_ii.client\\src\\App.jsx",
+              "RelativeDocumentMoniker": "project_ii.client\\src\\App.jsx",
+              "ToolTip": "E:\\UTCN\\YEAR III\\II\\II_Project\\project_ii.client\\src\\App.jsx",
+              "RelativeToolTip": "project_ii.client\\src\\App.jsx",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-05-24T16:31:32.053Z",
+              "EditorCaption": ""
             }
           ]
         }

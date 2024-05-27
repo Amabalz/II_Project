@@ -1,44 +1,83 @@
-import React from "react";
+import { useContext, useState } from "react";
 import ThreadCreateComp from "./ThreadCreateComp";
 import Thread from "./Thread";
+import SidebarComp from "./SidebarComp";
+import { useEffect } from "react";
+import axios from 'axios';
+import { UserContext } from './Context';
 
-class Home extends React.Component {
-  render() {
+
+function Home() {
+    const { userData, setUserData } = useContext(UserContext);
+    const [tickets, setTickets] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
+
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await axios.get('https://localhost:7082/GetAllTickets');
+                setTickets(response.data);
+                setLoading(false);
+            } catch (error) {
+                setError(error.response.data);
+                setLoading(false);
+            }
+        };
+
+        fetchData();
+    }, []);
+
     return (
-      <div
-        style={{
-          background: "#e9ecef",
-          height: 1500,
-          width: "100%",
-          position: "relative",
-        }}
-      >
-        <div style={{ width: "15%", height: "100%" }}>
-          <div
+        <div
             style={{
-              //background: "orange",
-              width: "60%",
-              height: "100%",
-              position: "absolute",
-              left: "20%",
-              top: "0",
+                height: "100%",
+                width: "100%",
+                position: "relative",
             }}
-          >
-            {/* top:'0' optinut prin incercari repetate, autor: Ududec Puiu Dan Avram, IE anul 2*/}
+        >
+            <div style={{ width: "15%", height: "100%" }}>
+                {(userData.id != 0) &&
+                    <>
+                        <SidebarComp
+                            profilePicture={"/avatar.jpg"}
+                        />
+                    </>
+                }
+                <div style={{ width: "15%", height: "100%" }}>
+                    <div
+                        style={{
+                            width: "60%",
+                            height: "100%",
+                            position: "absolute",
+                            left: "20%",
+                            top: "0",
+                        }}
+                    >
+                        {(userData.id != 0) && <ThreadCreateComp />}
 
-            <ThreadCreateComp />
-            <h2 style={{ margin: "10px 0px 20px 0px" }}>Threads:</h2>
-            <Thread
-              username={"Ududec Puiu Dan Avram"}
-              content={"ceva aici (e hardcodat asta, vezi in Home.jsx)"}
-              likes={7}
-              dislikes={9} //hardcodat ca exemplu, in realitate o sa fie un fetch, cred
-            />
-            <Thread />
-          </div>
+                        {loading && !error && <h2 style={{ margin: "10px 0px 20px 0px" }}>Loading...</h2>}
+                        {!loading && error && <h2 style={{ margin: "10px 0px 20px 0px" }}>An unexpected error has occurred</h2>}
+                        {!loading && !error &&
+                            <>
+                                <h2 style={{ margin: "10px 0px 20px 0px" }}>Threads:</h2>
+                                {tickets.map((ticket, index) => (
+                                    <Thread
+                                        key={index}
+                                        id={ticket.id}
+                                        userid={ticket.userid}
+                                        title={ticket.title}
+                                        content={ticket.data}
+                                    />
+                                ))}
+                            </>
+                        }
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     );
-  }
+
 }
+
 export default Home;

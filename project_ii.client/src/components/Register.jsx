@@ -1,90 +1,117 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import axios from 'axios';
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 
 function Register() {
-  const [formData, setFormData] = useState({
-    username: '',
-    email: '',
-    password: '',
-  });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
+    const [formData, setFormData] = useState({
+        username: '',
+        email: '',
+        password: '',
     });
-  };
+    const [registerMessage, setRegisterMessage] = useState('Register failed');
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Save data to local storage
-    localStorage.setItem('user', JSON.stringify(formData));
-    console.log('User registered:', formData);
-    // Clear the form
-    setFormData({
-      username: '',
-      email: '',
-      password: '',
-    });
-  };
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({
+            ...formData,
+            [name]: value,
+        });
+    };
 
-  return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "50vh",
-      }}
-    >
-      <form onSubmit={handleSubmit}>
-        <h5>Register</h5>
-        <div className="mb-3">
-          <input
-            type="text"
-            className="form-control"
-            id="inputUsernameRegister"
-            name="username"
-            placeholder="Enter username"
-            value={formData.username}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <div className="mb-3">
-          <input
-            type="email"
-            className="form-control"
-            id="inputEmailRegister"
-            name="email"
-            placeholder="Enter email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <div className="mb-3">
-          <input
-            type="password"
-            className="form-control"
-            id="inputPasswordRegister"
-            name="password"
-            placeholder="Enter password"
-            value={formData.password}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <button
-          type="submit"
-          className="btn btn-dark"
-          style={{ position: "relative" }}
+    const handleSubmit = (e) => {
+        setRegisterMessage("Register failed")
+        e.preventDefault();
+        axios({
+            method: 'post',
+            url: 'https://localhost:7082/User/AddUser',
+            data: {
+                username: formData.username,
+                email: formData.email,
+                password: formData.password
+            }
+        })
+        .then(function (response) {
+            console.log(response);
+            setRegisterMessage("User was registered");
+
+            // Clear the form
+            setFormData({
+                username: '',
+                email: '',
+                password: '',
+            });
+        })
+        .catch(function (error) {
+            console.log(error.response.data);
+            setRegisterMessage(error.response.data);
+        })
+    };
+
+    return (
+        <div
+            style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                height: "50vh",
+            }}
         >
-          Register
-        </button>
-      </form>
-    </div>
-  );
+            <form onSubmit={handleSubmit} noValidate>
+                <h5>Register</h5>
+                <div className="mb-3">
+                    <input
+                        type="text"
+                        className="form-control"
+                        id="inputUsernameRegister"
+                        name="username"
+                        placeholder="Enter username"
+                        value={formData.username}
+                        onChange={handleChange}
+                        required
+                    />
+                </div>
+                <div className="mb-3">
+                    <input
+                        type="email"
+                        className="form-control"
+                        id="inputEmailRegister"
+                        name="email"
+                        placeholder="Enter email"
+                        value={formData.email}
+                        onChange={handleChange}
+                        required
+                    />
+                </div>
+                <div className="mb-3">
+                    <input
+                        type="password"
+                        className="form-control"
+                        id="inputPasswordRegister"
+                        name="password"
+                        placeholder="Enter password"
+                        value={formData.password}
+                        onChange={handleChange}
+                        required
+                    />
+                </div>
+
+                <Popup trigger=
+                    {
+                        <button
+                            type="submit"
+                            className="btn btn-dark"
+                            style={{ position: "relative" }}
+                        >
+                            Register
+                        </button>
+                    }
+                    position="left">
+                    <div>{registerMessage}</div>
+                </Popup>
+            </form>
+        </div>
+    );
 }
 
 export default Register;
